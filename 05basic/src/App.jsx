@@ -23,12 +23,15 @@ function App() {
     // Password Generater
     // </h1>
     <>
-      <div className="text-white">
-        <h1 className="">React hooks</h1>
+      <div className="text-white w-52 top-40  h-40 bg-blend-darken border flex justify-center">
+        <div> 
+          <h1 className="">React hooks</h1>
         <h2>Counter value :{Counter}</h2>
         <button onClick={addValue}>Add value</button>
         <br />
         <button onClick={removeValue}>Remove value{Counter}</button>
+        </div>
+        
       </div>
     </>
   );
